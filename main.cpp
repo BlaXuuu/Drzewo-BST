@@ -162,7 +162,7 @@ int main() {
             break;
         }
         default: {
-            cout << "Nieprawidlowa opcja. Spróbuj ponownie.\n";
+            cout << "Nieprawidlowa opcja. Sprï¿½buj ponownie.\n";
             break;
         }
         } // koniec switch
@@ -177,3 +177,4 @@ int main() {
 
     return 0;
 }
+//test
