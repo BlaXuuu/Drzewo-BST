@@ -66,3 +66,4 @@ bool FileHandler::loadFromText(BST& tree, const string& filename) {
     inFile.close();
     return true;
 }
+//test
