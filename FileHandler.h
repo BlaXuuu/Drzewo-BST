@@ -54,3 +54,4 @@ public:
      */
     bool loadFromText(BST& tree, const string& filename);
 };
+//test
