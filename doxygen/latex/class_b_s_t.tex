@@ -1,0 +1,122 @@
+\doxysection{Dokumentacja klasy BST}
+\hypertarget{class_b_s_t}{}\label{class_b_s_t}\index{BST@{BST}}
+
+
+Implementacja drzewa binarnego poszukiwan (\doxylink{class_b_s_t}{BST}).  
+
+
+
+
+{\ttfamily \#include $<$BST.\+h$>$}
+
+\doxysubsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_b_s_t_abc17123a0367c3b8ad0382eeb3ad3178}\label{class_b_s_t_abc17123a0367c3b8ad0382eeb3ad3178} 
+{\bfseries BST} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor domyslny, tworzy puste drzewo. \end{DoxyCompactList}\item 
+\Hypertarget{class_b_s_t_aff9c7948fbba37844d2893b920ddc238}\label{class_b_s_t_aff9c7948fbba37844d2893b920ddc238} 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+BST} ()
+\begin{DoxyCompactList}\small\item\em Destruktor, zwalnia pamiec po wszystkich wezlach. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_b_s_t_a01c0bd5499a27315e59a101448cddfe2}{insert}} (int data)
+\begin{DoxyCompactList}\small\item\em Publiczna metoda dodajaca element do drzewa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_b_s_t_a51af554dc558ec500d4a05ade218afa3}{remove}} (int data)
+\begin{DoxyCompactList}\small\item\em Publiczna metoda usuwajaca element z drzewa. \end{DoxyCompactList}\item 
+\Hypertarget{class_b_s_t_ac4c25c29469df59a243c920423ed6d75}\label{class_b_s_t_ac4c25c29469df59a243c920423ed6d75} 
+void {\bfseries clear} ()
+\begin{DoxyCompactList}\small\item\em Publiczna metoda usuwajaca wszystkie elementy z drzewa. \end{DoxyCompactList}\item 
+vector$<$ int $>$ \mbox{\hyperlink{class_b_s_t_a76b4500908ba47a16f4cc3e44529b4ac}{find\+Path}} (int data)
+\begin{DoxyCompactList}\small\item\em Wyszukuje sciezke od korzenia do wezla o podanej wartosci. \end{DoxyCompactList}\item 
+\Hypertarget{class_b_s_t_a29cd91b2f7784444d0e514a5338a15b7}\label{class_b_s_t_a29cd91b2f7784444d0e514a5338a15b7} 
+void {\bfseries display} ()
+\begin{DoxyCompactList}\small\item\em Wyswietla menu wyboru metody wyswietlania drzewa i je wyswietla. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Przyjaciele}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_b_s_t_ad948b5763603915e0f4e528b6e15f7ff}{File\+Handler}}
+\begin{DoxyCompactList}\small\item\em Zaprzyjaznienie klasy \doxylink{class_file_handler}{File\+Handler}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Implementacja drzewa binarnego poszukiwan (\doxylink{class_b_s_t}{BST}). 
+
+
+\begin{DoxyItemize}
+\item Klasa przechowuje elementy w uporzadkowanej strukturze drzewa, umozliwiajac szybkie wyszukiwanie, dodawanie i usuwanie elementow. 
+\end{DoxyItemize}
+
+\label{doc-func-members}
+\Hypertarget{class_b_s_t_doc-func-members}
+\doxysubsection{Dokumentacja funkcji składowych}
+\Hypertarget{class_b_s_t_a76b4500908ba47a16f4cc3e44529b4ac}\index{BST@{BST}!findPath@{findPath}}
+\index{findPath@{findPath}!BST@{BST}}
+\doxysubsubsection{\texorpdfstring{findPath()}{findPath()}}
+{\footnotesize\ttfamily \label{class_b_s_t_a76b4500908ba47a16f4cc3e44529b4ac} 
+vector$<$ int $>$ BST\+::find\+Path (\begin{DoxyParamCaption}\item[{int}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Wyszukuje sciezke od korzenia do wezla o podanej wartosci. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em data} & Wartosc do znalezienia. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Wektor (STL) zawierajacy wartosci wezlow na sciezce. Pusty wektor, jesli elementu nie znaleziono. 
+\end{DoxyReturn}
+\Hypertarget{class_b_s_t_a01c0bd5499a27315e59a101448cddfe2}\index{BST@{BST}!insert@{insert}}
+\index{insert@{insert}!BST@{BST}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily \label{class_b_s_t_a01c0bd5499a27315e59a101448cddfe2} 
+void BST\+::insert (\begin{DoxyParamCaption}\item[{int}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Publiczna metoda dodajaca element do drzewa. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em data} & Wartosc do dodania. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_b_s_t_a51af554dc558ec500d4a05ade218afa3}\index{BST@{BST}!remove@{remove}}
+\index{remove@{remove}!BST@{BST}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily \label{class_b_s_t_a51af554dc558ec500d4a05ade218afa3} 
+void BST\+::remove (\begin{DoxyParamCaption}\item[{int}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Publiczna metoda usuwajaca element z drzewa. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em data} & Wartosc do usuniecia. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-related-members}
+\Hypertarget{class_b_s_t_doc-related-members}
+\doxysubsection{Dokumentacja przyjaciół i powiązanych symboli}
+\Hypertarget{class_b_s_t_ad948b5763603915e0f4e528b6e15f7ff}\index{BST@{BST}!FileHandler@{FileHandler}}
+\index{FileHandler@{FileHandler}!BST@{BST}}
+\doxysubsubsection{\texorpdfstring{FileHandler}{FileHandler}}
+{\footnotesize\ttfamily \label{class_b_s_t_ad948b5763603915e0f4e528b6e15f7ff} 
+friend class \mbox{\hyperlink{class_file_handler}{File\+Handler}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Zaprzyjaznienie klasy \doxylink{class_file_handler}{File\+Handler}. 
+
+
+\begin{DoxyItemize}
+\item Pozwala klasie \doxylink{class_file_handler}{File\+Handler} na dostep do prywatnych skladowych (root) i prywatnych metod (serialize, deserialize, save\+To\+Text) klasy \doxylink{class_b_s_t}{BST}. 
+\end{DoxyItemize}
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/micha/\+Desktop/\+Drzewo-\/\+BST-\/master/\+Drzewo-\/\+BST-\/master/\mbox{\hyperlink{_b_s_t_8h}{BST.\+h}}\item 
+C\+:/\+Users/micha/\+Desktop/\+Drzewo-\/\+BST-\/master/\+Drzewo-\/\+BST-\/master/\mbox{\hyperlink{_b_s_t_8cpp}{BST.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,67 @@
+\begin{theindex}
+
+  \item {BST}, \hyperpage{5}
+    \subitem {FileHandler}, \hyperpage{6}
+    \subitem {findPath}, \hyperpage{6}
+    \subitem {insert}, \hyperpage{6}
+    \subitem {remove}, \hyperpage{6}
+
+  \indexspace
+
+  \item {C:/Users/micha/Desktop/Drzewo-\/BST-\/master/Drzewo-\/BST-\/master/BST.cpp}, 
+		\hyperpage{11}
+  \item {C:/Users/micha/Desktop/Drzewo-\/BST-\/master/Drzewo-\/BST-\/master/BST.h}, 
+		\hyperpage{11, 12}
+  \item {C:/Users/micha/Desktop/Drzewo-\/BST-\/master/Drzewo-\/BST-\/master/FileHandler.cpp}, 
+		\hyperpage{13}
+  \item {C:/Users/micha/Desktop/Drzewo-\/BST-\/master/Drzewo-\/BST-\/master/FileHandler.h}, 
+		\hyperpage{13, 14}
+  \item {C:/Users/micha/Desktop/Drzewo-\/BST-\/master/Drzewo-\/BST-\/master/main.cpp}, 
+		\hyperpage{14}
+  \item {clearInputBuffer}
+    \subitem {main.cpp}, \hyperpage{15}
+
+  \indexspace
+
+  \item {FileHandler}, \hyperpage{7}
+    \subitem {BST}, \hyperpage{6}
+    \subitem {loadFromBinary}, \hyperpage{7}
+    \subitem {loadFromText}, \hyperpage{7}
+    \subitem {saveToBinary}, \hyperpage{8}
+    \subitem {saveToText}, \hyperpage{8}
+  \item {findPath}
+    \subitem {BST}, \hyperpage{6}
+
+  \indexspace
+
+  \item {insert}
+    \subitem {BST}, \hyperpage{6}
+
+  \indexspace
+
+  \item {loadFromBinary}
+    \subitem {FileHandler}, \hyperpage{7}
+  \item {loadFromText}
+    \subitem {FileHandler}, \hyperpage{7}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{15}
+  \item {main.cpp}
+    \subitem {clearInputBuffer}, \hyperpage{15}
+    \subitem {main}, \hyperpage{15}
+
+  \indexspace
+
+  \item {remove}
+    \subitem {BST}, \hyperpage{6}
+
+  \indexspace
+
+  \item {saveToBinary}
+    \subitem {FileHandler}, \hyperpage{8}
+  \item {saveToText}
+    \subitem {FileHandler}, \hyperpage{8}
+
+\end{theindex}
